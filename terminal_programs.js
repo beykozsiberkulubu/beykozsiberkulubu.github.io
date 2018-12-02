@@ -26,5 +26,12 @@ var PROGAMS = {
 
   clear: function(...a) {
     this.clear_terminal();
+  },
+  flag: function(...a) {
+    this.printa("<img src='https://beykozsiberkulubu.github.io/Beykoz-Siber-Kul%C3%BCb%C3%BC.jpeg'></<img> ");
+    this.printa("Wordlistde buralarda bir yerde");
+  },
+  wordlist: function(...a) {
+    this.printa("https://drive.google.com/file/d/1Ye2tWHQwp0GacqkRvLEIQFb-LivxUeNz/");
   }
 };
