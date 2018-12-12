@@ -1,8 +1,86 @@
 <html>
-<head> <title>Beykoz Siber Kulübü Web Pentest ve Adli Bilişim 101 Eğitimi</title> </head>
+<head> <title>Beykoz Siber Kulübü Web Pentest ve Adli Bilişim 101 Eğitimi</title> <meta charset="UTF-8"/> </head>
 <body>
 <center>
+  <button id="myBtn">Etkinlik Detay</button>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Merhaba Dostum,</p>
+        <p>Beykoz Siber Kulübü Web Pentest ve Adli Bilişim 101 Eğitimi</p>
+        <p>* Eğitimler ücretsizdir.</p>
+        <p>* Eğitim sıraları henüz belirlenmemiştir. İlk eğitim saat 11:00 ve 13:00 arası olacaktır. İkinci eğitim ise 14:00 ve 16:00 arası olacaktır.</p>
+        <p>* Saat 13:00 ve 14:00 arasında öğle aramız olacaktır. Bu ara sırasında öğrencilerimize ikramımız olacaktır.</p>
+		<p>* Eğitime toplamda 20 kişi olmak üzere 10 kişi Beykoz Siber Kulübünden 10 kişiyi ise dışarıdan seçeceğiz.</p>
+		<p>* Web Pentest tarafına vereceğimiz eğitimde bir pentesterın çalışmaya gittiği kurumda web tarafına yaptığı saldırıları uygulamalı öğreneceğiz.</p>
+		<p>* Etkinliğe kazanan ve katılacak arkadaşların laptop getirmesi zorunlu değildir.</p>
+		<p>* Etkinlik sonunda çekiliş ile Boğaziçi Üniversitesinin hazırlamış olduğu Uygulamalı Beyaz Şapkalı Hacker Kursu ve A-Z™ | Herkes İçin Sıfırdan GNU/Linux Eğitimi hediye edilecektir. </p>
+		<p>Sevimli bir etkinlik olması dileği ile esen kalın :)</p>
+		<p>Ulaşım için https://goo.gl/maps/vnzE8NN9L3k</p>
+		<p>Bu binayı görünce dalın içeri :)</p>
+		<img style="width:300px" src="https://www.adanapost.com/d/news/26541.jpg"> </img>
+	  </div>
+    </div>
 <iframe style="width:1300px;height:1664;frameborder:0; marginheight:0;marginwidth:0;scrolling=no"  src="https://docs.google.com/forms/d/e/1FAIpQLScyo_uKMVgbyu3WrKr_Ccv1MHEvFff4NyLGG4WUGhyqB1wT6g/viewform"></iframe>
 </center>
 </body>
 </html>
+	<style>
+	    /* Popup (arka plan) */
+    .modal {
+        display: none; /* Varsayılan olarak gizlidir */
+        position: fixed; /* Yerinde kal */
+        z-index: 1; /* Üstte */
+        left: 0;
+        top: 0;
+        width: 100%; /* Ful Genişlik */
+        height: 100%; /* Ful Yükseklik */
+        overflow: auto; /* Gerekirse kaydırmayı etkinleştir */
+        background-color: rgb(0,0,0); /* Yedek renk */
+        background-color: rgba(0,0,0,0.4); /* Siyah w / opaklık */
+    }
+    /* İçerik / Kutu */
+    .modal-content {
+        background-color: #fefefe;
+        margin: 15% auto; /* % 15 üstten ve ortalanmış */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%; /* Ekran boyutuna bağlı olarak daha fazla veya daha az olabilir */
+    }
+    /* Kapat Düğmesi */
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+	</style>
+	
+	<script>
+	    // Popup Al
+    var modal = document.getElementById('myModal');
+    // Kipi açan düğmeyi al
+    var btn = document.getElementById("myBtn");
+    // Kipi kapatan <span> öğesini edinin
+    var span = document.getElementsByClassName("close")[0];
+    // Kullanıcı düğmeyi tıklattığında
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+    // Kullanıcı <span> (x) düğmesini tıkladığında, popup
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+    // Kullanıcı modelden başka herhangi bir yeri tıklattıysa, onu kapatın.
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+	</script>
