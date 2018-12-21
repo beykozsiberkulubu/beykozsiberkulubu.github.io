@@ -16,9 +16,10 @@ var PROGAMS = {
  },
  hakkimizda : function(...a){
       self.printa("<h2>Siber güvenlik alanına yeni bir kilometre taşı koymak isteyen kişilerin toplandığı ortam. </h2> </br> ");
+   self.printa("<h2>Detaylı ulaşım sayfamız </h2> <a href=''>#go#</a> </br> ");
  },
  tools : function(...a){
-      self.printa("<h2>Rar Brute Force <a href=''>#go#</a></h2></br> ");
+      self.printa("<h2>Rar Brute Force <a href='ulasim.html'>#ulaş#</a></h2></br> ");
  },
   aboutme: function(...a) {
     this.printa("aboutme");
