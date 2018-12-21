@@ -15,11 +15,11 @@ var PROGAMS = {
       self.printa("<h2>Beykoz Siber Kulübü Web Pentest ve Adli Bilişim 101 Eğitimi 15 Aralık: <a href='beykoz-siber-kulubu-15-aralık-egitimi.html'>Başvur</a></h2> ");
  },
  hakkimizda : function(...a){
-      self.printa("<h2>Siber güvenlik alanına yeni bir kilometre taşı koymak isteyen kişilerin toplandığı ortam. </h2> </br> ");
+      self.printa("<h2>Siber güvenlik alanına yeni bir kilometre taşı koymak isteyen kişilerin toplandığı ortam. </h2>");
    self.printa("<h2>Detaylı ulaşım sayfamız </h2> <a href=''>#go#</a> </br> ");
  },
  tools : function(...a){
-      self.printa("<h2>Rar Brute Force <a href='ulasim.html'>#ulaş#</a></h2></br> ");
+      self.printa("<h2>Rar Brute Force <a href='https://beykozsiberkulubu.github.io/ulasim.html'>#ulaş#</a></h2></br> ");
  },
   aboutme: function(...a) {
     this.printa("aboutme");
